@@ -47,4 +47,3 @@ The solution is built on a serverless AWS architecture, ensuring scalability, co
 5.  **For "current inventory":** The agent determines it needs live data and invokes the corresponding **Lambda function**. The function queries the inventory management database and returns the result.
 6.  The Bedrock Agent synthesizes the information from both sources into a coherent, natural language response and presents it to the user.
 
----
